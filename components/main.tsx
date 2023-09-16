@@ -19,7 +19,7 @@ const Main = () => {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem]  text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -61,7 +61,7 @@ const Main = () => {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row item-center justify-center gap-5 text-lg font-medium px-5"
+        className="flex flex-col sm:flex-row items-center justify-center gap-5 text-lg font-medium px-5"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -70,8 +70,8 @@ const Main = () => {
       >
         <Link
           href="#contact"
-          className="group flex items-center gap-2 text-white py-3 rounded-full px-7 bg-gray-900
-            outline-none focus:scale-110 hover:scale-110 hover:bg-gray-900
+          className="group flex items-center gap-2 text-white py-3 rounded-full px-7 bg-gray-900 
+            outline-none focus:scale-110 hover:scale-110 hover:bg-gray-900 
             transition active:scale-105 shadow-lg shadow-gray-400 dark:shadow-gray-900 dark:shadow-md"
           onClick={() => {
             setActiveSection("Contact");
@@ -82,7 +82,7 @@ const Main = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          className="group cursor-pointer bg-white flex items-center gap-2 py-3 rounded-full px-7 
+          className="group cursor-pointer bg-white flex items-center gap-2 py-3 rounded-full px-7
              outline-none focus:scale-110 hover:scale-110 
             transition active:scale-105 shadow-lg shadow-gray-400 borderBlack dark:bg-white/20 dark:shadow-md dark:shadow-gray-900"
           href="/CV.pdf"
@@ -92,7 +92,7 @@ const Main = () => {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
-          className="bg-white flex items-center text-gray-700 gap-2 p-4 rounded-full  
+          className="bg-white flex items-center text-gray-700 gap-2 p-4 rounded-full 
             outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-900 
             transition active:scale-105 shadow-lg shadow-gray-400 borderBlack dark:bg-white/20 dark:shadow-md dark:text-white/60 dark:shadow-gray-900"
           href="https://www.linkedin.com/in/shivam-bhardwaj-645b44286/"

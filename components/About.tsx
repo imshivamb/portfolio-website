@@ -12,7 +12,7 @@ const About = () => {
     <motion.section
       ref={ref}
       id="about"
-      className="mb-28 max-w-[45rem] text-center leading-8 scroll-mt-36"
+      className="mb-28 max-w-[50rem] text-center leading-8 scroll-mt-36"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
