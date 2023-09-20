@@ -21,16 +21,22 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sint
-        inventore quae architecto, quos voluptatum ut eum at ratione, saepe sit
-        corrupti aspernatur tenetur voluptate perspiciatis necessitatibus
-        voluptatem quibusdam libero? Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Dignissimos qui quos voluptates natus, porro sunt
-        debitis quod facere, eos doloribus velit quia explicabo saepe illum
-        voluptatibus aspernatur dolorum magnam. Delectus? <br />
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quis ad
-        magnam eos quos? Deleniti quasi a accusamus molestiae natus, in non
-        minima voluptatibus, ratione quis hic vero optio impedit!
+        Hey there, I'm Shivam—a web developer and designer passionate about
+        crafting exceptional online experiences. I began this journey as a
+        self-taught enthusiast and quickly fell in love with the creative and
+        technical aspects of the field. From mastering HTML and CSS to diving
+        into JavaScript and beyond, my journey has been a constant learning
+        curve. <br /> I'm not just about the code; I'm all about creating
+        seamless solutions that balance functionality and aesthetics. I thrive
+        on paying attention to the finer details, ensuring pixel-perfect
+        results. Additionally, I've ventured into UI/UX design using tools like
+        Figma, focusing on designs that not only look good but also enhance the
+        user's journey. <br /> Known for my reliability and knack for
+        problem-solving, I tackle challenges head-on. Whether working solo or
+        with a team, my goal is to make the web a better place, one project at a
+        time. <br /> Got a big idea or project in mind? Let's chat! I'm eager to
+        bring my skills, creativity, and a dash of tech magic to your table.
+        Let's create something amazing together! 🚀
       </p>
     </motion.section>
   );

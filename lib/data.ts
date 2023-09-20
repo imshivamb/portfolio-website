@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import genie from "@/public/genie.png";
+import giftseeker from "@/public/giftseeker.png";
+import restaurant from "@/public/restaurant.png";
 
 export const links = [
     {
@@ -35,52 +34,45 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Internship",
+        location: "New Delhi",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
+            "Did internship for 4 months, where I was responsible for managing and operating the network system used for online exams in Colleges.",
+        icon: React.createElement(CgWorkAlt),
         date: "2019",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Editor/Designer",
+        location: "Remote/On-site",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+            "I worked as a photo editor for 1 year and 8 months in this job. I also upskilled to designer, creating prototypes and wireframes using Figma.",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        date: "2021 - 2023",
     },
-    {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
-    },
+   
 ] as const;
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "Genie AI SaaS",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "Genie is a cutting-edge AI SaaS app powered by the ChatGPT API. It has the capabilities for chat, code, image, audio, and video creation. ",
+        tags: ["React", "Next.js", "MySQL", "TypeScript", "Tailwind", "Prisma", "Stripe", "Clerk", "ChatGPT"],
+        imageUrl: genie,
     },
     {
-        title: "rmtDev",
+        title: "Gift Seeker",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg,
+            "It is a one-stop site to buy gifts from the internet, it was one of my first projects.",
+        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Strapi", "Clerk", "PostGresQL"],
+        imageUrl: giftseeker,
     },
     {
-        title: "Word Analytics",
+        title: "Restaurant App",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
+            "A restaurant webapp with functionality for reserving a table and ordering food online.",
+        tags: ["React", "Next.js", "JavaScript", "Tailwind", "Figma"],
+        imageUrl: restaurant,
     },
 ] as const;
 
@@ -94,14 +86,17 @@ export const skillsData = [
     "Node.js",
     "Git",
     "Tailwind",
+    "Figma",
+    "shadcnUI",
     "Prisma",
     "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
     "Express",
     "PostgreSQL",
+    "MySQL",
     "Python",
     "Django",
+    "C++",
+    "Linux",
+    "Photoshop",
     "Framer Motion",
 ] as const;
