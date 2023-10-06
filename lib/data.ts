@@ -34,7 +34,7 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Internship",
+        title: "IT Network Specialist",
         location: "New Delhi",
         description:
             "Did internship for 4 months, where I was responsible for managing and operating the network system used for online exams in Colleges.",
@@ -42,12 +42,20 @@ export const experiencesData = [
         date: "2019",
     },
     {
-        title: "Editor/Designer",
+        title: "UI Designer/Editor",
         location: "Remote/On-site",
         description:
             "I worked as a photo editor for 1 year and 8 months in this job. I also upskilled to designer, creating prototypes and wireframes using Figma.",
         icon: React.createElement(CgWorkAlt),
-        date: "2021 - 2023",
+        date: "2020 - 2022",
+    },
+    {
+        title: "Front End Developer",
+        location: "On-site",
+        description:
+            "I worked as a front end developer, managing the UI design and responsible for functioning and seamless user experience of the company website",
+        icon: React.createElement(CgWorkAlt),
+        date: "2022 - 2023",
     },
    
 ] as const;
@@ -91,12 +99,15 @@ export const skillsData = [
     "Prisma",
     "MongoDB",
     "Express",
+    "GraphQL",
     "PostgreSQL",
     "MySQL",
     "Python",
     "Django",
     "C++",
     "Linux",
+    "Docker",
+    "AWS",
     "Photoshop",
     "Framer Motion",
 ] as const;
