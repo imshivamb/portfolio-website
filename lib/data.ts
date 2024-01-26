@@ -34,28 +34,37 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Front End Developer",
+        location: "Qpe (Appernity Technologies)",
+        description:
+            "I am working as a front end developer, managing the front end design department and responsible for functioning and seamless websites for business owners.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Oct 2023 - Present",
+    },
+    {
+        title: "Front End Developer",
+        location: "DropTheQ",
+        description:
+            "I worked as a front end developer, managing the UI design and responsible for functioning and seamless user experience of the company website",
+        icon: React.createElement(CgWorkAlt),
+        date: "Aug 2022 - Aug 2023",
+    },
+    {
+        title: "UI Designer/Editor",
+        location: "Flixstock India Pvt. Ltd",
+        description:
+            "I worked as a photo editor for 1 year and 8 months in this job. I also upskilled to designer, creating prototypes and wireframes using Figma.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Dec 2020 - July 2022",
+    },
+    
+    {
         title: "IT Network Specialist",
-        location: "New Delhi",
+        location: "Aptech Pvt. Ltd",
         description:
             "Did internship for 4 months, where I was responsible for managing and operating the network system used for online exams in Colleges.",
         icon: React.createElement(CgWorkAlt),
         date: "2019",
-    },
-    {
-        title: "UI Designer/Editor",
-        location: "Remote/On-site",
-        description:
-            "I worked as a photo editor for 1 year and 8 months in this job. I also upskilled to designer, creating prototypes and wireframes using Figma.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2020 - 2022",
-    },
-    {
-        title: "Front End Developer",
-        location: "On-site",
-        description:
-            "I worked as a front end developer, managing the UI design and responsible for functioning and seamless user experience of the company website",
-        icon: React.createElement(CgWorkAlt),
-        date: "2022 - 2023",
     },
    
 ] as const;
@@ -104,6 +113,8 @@ export const skillsData = [
     "MySQL",
     "Python",
     "Django",
+    "Recoil",
+    "Supabase",
     "C++",
     "Linux",
     "Docker",

@@ -32,7 +32,7 @@ export default function RootLayout({
         dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90${league.variable}`}
       >
         <div
-          className="bg-[#fffcd9] absolute -z-10 top-[-6rem] right- [10rem] h-[30rem] w-[30rem] rounded-full blur-[10rem]
+          className="bg-[#fffcd9] absolute -z-10 top-[-6rem] right- [10rem] h-[30rem] w-[20rem] rounded-full blur-[10rem]
         sm:w-[68rem] dark:bg-[#946263]"
         ></div>
         <div

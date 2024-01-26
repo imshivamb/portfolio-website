@@ -20,7 +20,7 @@ const About = () => {
       }}
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 md:text-base text-sm">
         Hey there, I'm Shivam—a web developer and designer passionate about
         crafting exceptional online experiences. I began this journey as a
         self-taught enthusiast and quickly fell in love with the creative and
