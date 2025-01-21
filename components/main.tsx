@@ -54,10 +54,12 @@ const Main = () => {
         </span>
         . I'm a{" "}
         <span className="font-bold text-indigo-800 dark:text-indigo-300">
-          front-end developer/designer
+          Full Stack Developer
         </span>{" "}
-        passionate about crafting captivating user experiences through code and
-        design, with a solid grasp of back-end tech.
+        with expertise in crafting modern web applications. From building
+        scalable systems that serve 100K+ users to designing intuitive
+        interfaces, I blend technical excellence with creative problem-solving
+        to deliver impactful digital solutions.
       </motion.h1>
 
       <motion.div
