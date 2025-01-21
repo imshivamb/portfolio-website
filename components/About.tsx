@@ -21,22 +21,32 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3 md:text-base text-sm">
-        Hey there, I'm Shivam—a web developer and designer passionate about
-        crafting exceptional online experiences. I began this journey as a
-        self-taught enthusiast and quickly fell in love with the creative and
-        technical aspects of the field. From mastering HTML and CSS to diving
-        into JavaScript and beyond, my journey has been a constant learning
-        curve. <br /> I'm not just about the code; I'm all about creating
-        seamless solutions that balance functionality and aesthetics. I thrive
-        on paying attention to the finer details, ensuring pixel-perfect
-        results. Additionally, I've ventured into UI/UX design using tools like
-        Figma, focusing on designs that not only look good but also enhance the
-        user's journey. <br /> Known for my reliability and knack for
-        problem-solving, I tackle challenges head-on. Whether working solo or
-        with a team, my goal is to make the web a better place, one project at a
-        time. <br /> Got a big idea or project in mind? Let's chat! I'm eager to
-        bring my skills, creativity, and a dash of tech magic to your table.
-        Let's create something amazing together! 🚀
+        Hey there! I'm Shivam—a Full Stack Developer with a proven track record
+        of building scalable solutions for international clients. My journey
+        began with a curiosity for web development, which has evolved into
+        expertise across the entire tech stack, from crafting intuitive
+        frontends to architecting robust backend systems.
+        <br />
+        <br />
+        At QPe, I've led the development of multiple high-impact projects,
+        including websites that serve 100k+ monthly visitors. I've engineered
+        everything from document management systems to real-time tracking
+        features, always focusing on performance and user experience. My work
+        with international clients on projects like tore.ai and easyvsl.com has
+        honed my ability to deliver solutions that exceed expectations.
+        <br />
+        <br />
+        My background in UX/UI design at FlixStock has given me a unique edge in
+        creating applications that are not just functional but also delightful
+        to use. I've developed a keen eye for detail through designing
+        high-fidelity prototypes and implementing major UI overhauls that
+        significantly boosted user engagement.
+        <br />
+        <br />
+        Currently, I'm exploring advanced technologies like AI integration and
+        Web3, as seen in my projects Alchemy and Krypt. I'm always excited to
+        take on new challenges and create innovative solutions that make a real
+        impact. Let's connect and build something extraordinary together! 🚀
       </p>
     </motion.section>
   );
