@@ -19,56 +19,54 @@ const Main = () => {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem]  text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
+            transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
               src={logo}
-              alt="person"
+              alt="Shivam profile picture"
               width={120}
               height={120}
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.3rem] 
-                border-white object-cover shadow-xl"
+              className="h-24 w-24 rounded-full border-[0.3rem] border-white object-cover shadow-xl"
             />
           </motion.div>
         </div>
       </div>
+
       <motion.h1
         className="mb-10 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl py-4"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm{" "}
+        Hi, I’m{" "}
         <span className="font-bold text-indigo-800 dark:text-indigo-300">
           Shivam
         </span>
-        . I'm a{" "}
+        . I’m a{" "}
         <span className="font-bold text-indigo-800 dark:text-indigo-300">
-          Full Stack Developer
+          Full Stack Engineer
         </span>{" "}
-        with expertise in crafting modern web applications. From building
-        scalable systems that serve 100K+ users to designing intuitive
-        interfaces, I blend technical excellence with creative problem-solving
-        to deliver impactful digital solutions.
+        with expertise in{" "}
+        <span className="font-semibold">
+          Next.js, Tailwind, and Framer Motion
+        </span>
+        . I’ve built AI SaaS platforms, drag-and-drop workflow builders, and
+        multimodal dashboards — blending technical execution with design polish
+        to deliver fast, user-friendly applications.
       </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 text-lg font-medium px-5"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
+        transition={{ delay: 0.1 }}
       >
         <Link
           href="#contact"
